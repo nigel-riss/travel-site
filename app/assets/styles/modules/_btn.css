@@ -6,7 +6,7 @@
     background-color: $mainBlue;
 
     &--orange {
-        color: $hello;
+        /*color: $hello;*/
         background-color: $mainOrange;
     }
 
