@@ -4,7 +4,8 @@ var gulp = require('gulp'),
     cssvars = require('postcss-simple-vars'),
     nested = require('postcss-nested'),
     cssImport = require('postcss-import'),
-    cssComb = require('gulp-csscomb');
+    cssComb = require('gulp-csscomb'),
+    mixins = require('postcss-mixins');
 
 gulp.task('comb', function () {
     return gulp.src('./app/assets/styles/**/*.css')
@@ -14,7 +15,7 @@ gulp.task('comb', function () {
 
 gulp.task('styles', function () {
     return gulp.src('./app/assets/styles/styles.css')
-        .pipe(postcss([cssImport, cssvars, nested, autoprefixer]))
+        .pipe(postcss([cssImport, mixins, cssvars, nested, autoprefixer]))
         .on('error', function(errorInfo) {
             console.log(errorInfo.toString());
             this.emit('end');
