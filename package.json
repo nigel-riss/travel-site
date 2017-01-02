@@ -8,10 +8,11 @@
   },
   "devDependencies": {
     "autoprefixer": "^6.3.6",
-    "browser-sync": "^2.18.2",
+    "browser-sync": "^2.18.5",
     "gulp": "^3.9.1",
     "gulp-csscomb": "^3.0.8",
     "gulp-postcss": "^6.1.1",
+    "gulp-sass": "^3.0.0",
     "gulp-watch": "^4.3.5",
     "postcss-import": "^8.1.2",
     "postcss-mixins": "^5.4.0",
