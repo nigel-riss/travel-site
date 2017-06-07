@@ -5,6 +5,7 @@
     "gulp": "^3.9.1",
     "jquery": "^2.2.4",
     "jquery-smooth-scroll": "^2.1.2",
+    "lazysizes": "^4.0.0-rc1",
     "normalize.css": "^4.1.1",
     "waypoints": "^4.0.1"
   },
